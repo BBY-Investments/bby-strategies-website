@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:www.heronfinance.com)"
+      "WebFetch(domain:www.heronfinance.com)",
+      "Bash(python3 -c \"import openpyxl; print\\(''openpyxl available''\\)\")",
+      "Bash(pip3 install:*)",
+      "Bash(python3:*)",
+      "mcp__Claude_Preview__preview_start"
     ]
   }
 }
